@@ -12,7 +12,6 @@ public class PlayerState implements Drawable {
     protected Attribute hpGauge = new Attribute(3,3);
     protected Attribute score = new Attribute(0);
     protected Attribute callbackGauge = new Attribute(0,100);
-    protected Attribute gameLevel = new Attribute(1,5);
     protected Attribute isHurtGauge = new Attribute(3000,3000);//满表示未被伤害，被伤害时归零并缓慢回复
     protected Attribute coinGauge = new Attribute(0);
     private Image runImage = CommonUtils.getImage("player_run.gif");
